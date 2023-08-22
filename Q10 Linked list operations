@@ -68,7 +68,7 @@ int searchlist(int key){
    }
    return 0;
 }
-void main(){
+ int main(){
    int k=0;
    insertatbegin(12);
    insertatbegin(22);
@@ -93,3 +93,5 @@ void main(){
    else
       printf("\nElement is not present in the list");
 }
+
+  
